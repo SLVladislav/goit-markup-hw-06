@@ -85,6 +85,7 @@ p {
   color: var(--tittle-buttom-color);
 }
 
+
 .site-nav {
   display: flex;
   margin-left: 93px;
@@ -92,7 +93,6 @@ p {
 
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
-
 }
 
 
@@ -104,6 +104,7 @@ p {
 .list-nav {
   position: relative;
   display: block;
+
   padding: 34px 0;
 
   font-weight: 500;
@@ -588,8 +589,6 @@ img {
   position: relative;
   display: flex;
   gap: 12px;
-
-
 }
 
 .footer-form input {
@@ -602,8 +601,6 @@ img {
   color: rgba(255, 255, 255, 0.6);
 
 }
-
-
 
 .footer-button {
   padding-right: 28px;
@@ -634,8 +631,6 @@ img {
 
 }
 
-
-
 /* ----------------------------Портфоліо-------------------------- */
 .main-sections {
   background-color: var(--container-hero-color);
@@ -652,7 +647,6 @@ img {
 .section-company {
   padding: 94px 0;
 }
-
 
 /* Фільтр портфоліо */
 
@@ -699,7 +693,6 @@ img {
 .projects:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
 
 .projects {
   display: block;
@@ -817,7 +810,6 @@ img {
   fill: var(--tittle-buttom-color);
 }
 
-
 .is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -840,15 +832,9 @@ img {
   flex-direction: column;
 }
 
-
-
 .lable-name {
   position: relative;
 }
-
-
-
-
 
 .label-modal label {
   margin-bottom: 4px;
@@ -859,7 +845,6 @@ img {
 
   color: var(--tittle-text-color);
 }
-
 
 .label-modal input {
   padding: 11px 12px;
@@ -878,8 +863,6 @@ img {
 .label-input:focus {
   border: 1px solid var(--tittle-buttom-color);
 }
-
-
 
 .label-svg {
   position: absolute;
@@ -928,8 +911,6 @@ img {
 
   color: var(--tittle-text-color);
 }
-
-
 
 .label-icon {
   display: flex;
@@ -994,6 +975,4 @@ img {
 .btn-form:hover,
 .btn-form:focus {
   background-color: var(--buttom-hero-color);
-
-
 }
